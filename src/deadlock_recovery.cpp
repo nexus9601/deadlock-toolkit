@@ -45,7 +45,7 @@ RecoveryResult DeadlockRecovery::terminateOne(const DetectionResult& detection) 
     RecoveryResult result;
     result.actionsLog.push_back("Strategy: TERMINATE ONE process at a time.");
 
-    // Sort by termination cost (ascending — cheapest first)
+    
     std::vector<int> victims = detection.deadlockedProcesses;
     std::sort(victims.begin(), victims.end(), [&](int a, int b) {
         return terminationCost(a) < terminationCost(b);
