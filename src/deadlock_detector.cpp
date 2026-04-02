@@ -35,7 +35,7 @@ std::vector<std::vector<int>> DeadlockDetector::buildWaitForGraph() const {
             }
         }
 
-        // Remove duplicate edges
+        
         std::sort(graph[i].begin(), graph[i].end());
         graph[i].erase(std::unique(graph[i].begin(), graph[i].end()), graph[i].end());
     }
