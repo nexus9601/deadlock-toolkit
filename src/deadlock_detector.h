@@ -4,7 +4,7 @@
 #include <string>
 #include <set>
 
-// Result of deadlock detection
+
 struct DetectionResult {
     bool deadlockFound;
     std::vector<int> deadlockedProcesses; // IDs of processes in deadlock
