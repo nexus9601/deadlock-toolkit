@@ -30,7 +30,7 @@ public:
     // Display recovery report
     void displayReport(const RecoveryResult& result) const;
 
-    // Compute "cost" of terminating a process (based on priority & work done)
+    // Compute cost of terminating a process (based on priority & work done)
     int terminationCost(int pid) const;
 
 private:
