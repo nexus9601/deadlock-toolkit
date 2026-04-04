@@ -81,3 +81,5 @@ Open `web/index.html` in any browser — no server needed.
 ## Author
 OS Project — Deadlock Toolkit
 Language: C++17 | Web: HTML5 / Vanilla JS / SVG
+
+<p>Simulation link: <link>https://nexus9601.github.io/deadlock-toolkit/</link></p>
